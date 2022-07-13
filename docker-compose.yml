@@ -1,6 +1,5 @@
 # image: https://hub.docker.com/r/coredns
 # docs: https://github.com/coredns/coredns
-
 version: '3.8'
 
 services:
