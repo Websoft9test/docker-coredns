@@ -9,7 +9,7 @@ services:
     expose:
       - '53'
     ports:
-      - '${APP_PORT}:53'
+      - '${APP_HTTP_PORT}:53'
     volumes:
       - './src/config:/etc/coredns'
 
